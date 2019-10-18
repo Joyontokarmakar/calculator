@@ -18,7 +18,7 @@
 }
 
 .main {
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translateX(-50%)translateY(-50%);
@@ -27,7 +27,7 @@
 }
 
 .calc_body {
-    position: relative;
+    position: absolute;
     background: linear-gradient(to right, red, blue);
     height: 635px;
     width: 100%;
