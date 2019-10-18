@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.button {
+    width: 54px;
+    height: 54px;
+    font-size: 25px;
+    margin: 2px;
+}
+
+.textview {
+    width: 217px;
+    margin: 6px;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+    background: #0000006b;
+
+}
+
+.calc_body {
+    background: linear-gradient(to right, red, blue);
+    height: 635px;
+    width: 100%;
+}
